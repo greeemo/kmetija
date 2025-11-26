@@ -2717,7 +2717,7 @@ input, select, textarea {
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+				background-color: #87C846;
 			}
 
 			.tiles article.style4 > .image:before {
@@ -3345,6 +3345,7 @@ input, select, textarea {
 }
 
 .outlined-text {
+	margin-top: 120px !important;
 	text-shadow: 1px 1px 2px black;
 }
   .logoSize {
@@ -3361,16 +3362,17 @@ input, select, textarea {
 }
 
 .moreBtn{
-  background-color: #ffffff;
-  border: 1px solid black;
-  color: black;
-  font-weight: bolder;
+  background-color: #87C846;
+  border: 1px solid white;
+  color: white;
+  font-weight: 800;
   padding: 10px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 10px 2px;
+  margin: auto 2px 10px 2px !important;
   cursor: pointer;
   border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px black;
 }
